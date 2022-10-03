@@ -1,0 +1,47 @@
+
+
+
+#menu{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width:100%;
+	box-sizing:border-box;
+	background:rgba(0, 0, 0,0.5);
+	z-index: 10;
+
+
+}
+ 
+#menu-liste{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+
+}
+
+#menu-liste li a{
+	line-height: 80px;
+	color: #fff;
+	padding: 12px 75px;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase ;
+}
+
+#menu-liste li a:hover{
+	background: rgba(255,255,255,0.7);
+	border-radius: 25px;
+	color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+
+
