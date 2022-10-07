@@ -1,7 +1,7 @@
 
 
 
-#menu{
+.menu{
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -13,7 +13,7 @@
 
 }
  
-#menu-liste{
+.menu-liste{
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -21,7 +21,7 @@
 
 }
 
-#menu-liste li a{
+.menu-liste li a{
 	line-height: 80px;
 	color: #fff;
 	padding: 12px 75px;
@@ -31,7 +31,7 @@
 	text-transform: uppercase ;
 }
 
-#menu-liste li a:hover{
+.menu-liste li a:hover{
 	background: rgba(255,255,255,0.7);
 	border-radius: 25px;
 	color: rgb(0, 0, 0);

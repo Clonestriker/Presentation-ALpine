@@ -3,11 +3,12 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="../Style/styleActu.css">
+    <link rel="stylesheet" href="../Style/styleHistoire.css">
     <link rel="icon" type="image/x-icon" href="../Image/alpinelogo.ico" >
-    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../Style/menu.css">
+    <link rel="stylesheet" href="../Style/style_RevealScroll.css">
     
 
 
@@ -18,14 +19,13 @@
 
 <header>
 
-    <nav id= "menu">
-        <ul id="menu-liste">
+    <nav class= "menu">
+        <ul class="menu-liste">
             <li ><a href="../../index.html">Accueil</a></li>
             <li ><a href="actu.html">Actualités</a></li>
             <li ><a href="#">Histoire</a></li>
-            <li ><a href="#">Page 1</a></li>
-            <li ><a href="#">Page 1</a></li>
-            <li ><a href="#">Page 1</a></li>
+            <li ><a href="Pilote.html">Pilotes</a></li>
+            <li ><a href="Formule1.html">Formule 1</a></li>
         </ul>
     </nav>
 
@@ -39,7 +39,23 @@
 
 
 <body>
-    <h1>HISTORIQUE DE LA MARQUE</h1>
+    <h1 class="titrePage reveal-1">HISTORIQUE DE LA MARQUE</h1>
+
+
+
+    <div class="container-fluid card reveal-2" style="margin-top: 10%;box-shadow: 3px 10px 26px -11px #5C5C5C;">
+        <img src="../Image/alpine1.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <p class="card-text text-center">
+            Some quick example text to build on the card title and make up 
+            the bulk of the card's content.Some quick example text to build on the card title and make up 
+            the bulk of the card's content.Some quick example text to build on the card title and make up 
+            the bulk of the card's content.Some quick example text to build on the card title and make up 
+            the bulk of the card's content.Some quick example text to build on the card title and make up 
+            the bulk of the card's content.</p>
+        </div>
+      </div>
+      
     
 
 
@@ -52,6 +68,8 @@
 
 
 </footer>
+
+<script src="../script/revealOnScroll.js" defer></script>
 
 
 </html>
